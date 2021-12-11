@@ -8,7 +8,7 @@ body{
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(45deg, #ff0c20, #930293);
+  background: linear-gradient(45deg, #333333, #151515);
   width: 100vw;
   height: 100vh;
 }
@@ -48,12 +48,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: white;
       a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: white;
         color: #000;
+        transform: rotate(calc(360deg/ -8 * var(--li)));
       }
     a:hover{
       color: #930293;
